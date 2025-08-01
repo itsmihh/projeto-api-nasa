@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NASA Image by Date</title>
+</head>
+<body>
+    <h2 id="titulo-pagina">Choose a Date to See a NASA Image</h2>
+    <div class="input">
+        <input type="date" id="data">
+        <button id="buscar">Search</button>
+    </div>
+
+    <div id="carregando">Loading...</div>
+
+    <p id="erro">No image was found for this date!</p>
+
+    <div class="resposta">
+        <div class="imagem">
+            <img src="" alt="Pokemon Sprite" id="imagem" style="display: none;">
+        </div>
+        <div class="titulo-descricao">
+            <h2 id="titulo"></h2>
+            <p id="descricao"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

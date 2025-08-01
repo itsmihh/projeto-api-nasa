@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    background-color: #151419;
+}
+
+#titulo-pagina {
+    color: #f56e0f;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+#data {
+    width: 50%;
+    height: 50px;
+    padding: 0 10px;
+
+    border-radius: 3px 0 0 3px;
+    border-style: none;
+    font-size: 1.2em;
+    color: #151515;
+}
+
+#buscar {
+    width: 10%;
+    height: 50px;
+    border-radius: 0 3px 3px 0;
+    font-size: 1.2em;
+    background-color: #f56e0f;
+    color: #fff;
+    border-style: none;
+}
+
+#carregando, #erro {
+    display: none;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#erro {
+    display: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.resposta {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 50px 5%;
+    padding: 15px;
+
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+#imagem {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.titulo-descricao {
+    padding: 20px;
+}
+
+#titulo {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#descricao {
+    text-align: justify;
+}
